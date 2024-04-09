@@ -13,7 +13,7 @@ const ProjectPage = () => {
             <div className="">
               <Image
                 alt=""
-                src="/japanese.png"
+                src="/japanese.jpg"
                 width={300}
                 height={200}
                 className="h-40"
