@@ -101,7 +101,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center mx-4 space-x-3">
             <Link href="/dashboard" className="flex items-center w-auto py-3">
-              <span className="px-10 py-2 bg-white border border-blue-800 rounded-full font-poppins border-spacing-2">
+              <span className="px-10 py-1 mb-2 bg-white border border-blue-800 rounded-full font-poppins border-spacing-2">
                 Download CV
               </span>
             </Link>
