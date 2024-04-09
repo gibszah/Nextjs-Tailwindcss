@@ -2,7 +2,6 @@
 
 import SideBar from "@/components/UI/sidebar";
 import "./globals.css";
-import BackAnimate from "@/components/UI/backanimate";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -21,9 +20,7 @@ export default function RootLayout({ children }) {
         <div className="relative z-40">
           <SideBar />
         </div>
-        <div className="relative">
-          <BackAnimate />
-        </div>
+
         {children}
       </body>
     </html>

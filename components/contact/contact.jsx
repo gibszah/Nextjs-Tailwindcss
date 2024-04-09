@@ -5,7 +5,7 @@ import Image from "next/image";
 const ContactMe = () => {
   return (
     <>
-      <div className="flex flex-col items-start justify-start mx-5 mt-10">
+      <div className="flex flex-col items-start justify-start mx-5 mt-14">
         <h1 className="mb-10 text-4xl font-bold font-jost">Contact Me</h1>
         <div className="flex items-center gap-2 px-2 tracking-wide cursor-pointer font-poppins hover:bg-gradient-to-r hover:from-slate-50 hover:to-slate-400">
           <a

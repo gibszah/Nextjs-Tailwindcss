@@ -15,9 +15,9 @@ const SideBar = () => {
 
   return (
     <>
-      <div className="absolute h-auto py-1 mt-3 rounded-md bg-gradient-to-r from-cyan-600 to-indigo-100 sm:top-32 top-12 md:top-32 lg:top-32 xl:top-32 right-2">
-        <div className="inline-flex items-center justify-center gap-2 lg:gap-5 md:gap-5 xl:gap-5 lg:flex lg:flex-col md:flex md:flex-col xl:flex xl:flex-col opacity-40 hover:opacity-100 focus:opacity-100 ">
-          <div className="mt-1">
+      <div className="absolute h-auto px-2 py-1 mt-3 rounded-md lg:px-0 md:px-0 xl:px-0 bg-gradient-to-r from-cyan-600 to-indigo-100 sm:top-32 top-12 md:top-32 lg:top-32 xl:top-32 right-2">
+        <div className="inline-flex items-center justify-center gap-2 rounded-lg lg:gap-5 md:gap-5 xl:gap-5 lg:flex lg:flex-col md:flex md:flex-col xl:flex xl:flex-col opacity-40 hover:opacity-100 focus:opacity-100 ">
+          <div className="mt-1 ">
             <Button>
               <Link
                 href="/"

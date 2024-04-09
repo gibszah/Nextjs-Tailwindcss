@@ -8,8 +8,17 @@ const About = () => {
     <>
       <div>
         <Backdrop />
+        <div className="absolute opacity-10 right-1/4">
+          <Image
+            alt=""
+            src="/huricane.svg"
+            width={315}
+            height={315}
+            className="animate-spinMSlow"
+          />
+        </div>
       </div>
-      <div className=" animate-fadeIn">
+      <div className="mt-5 animate-fadeIn">
         <div className="relative z-10 font-poppins">
           <div className="flex flex-col justify-start mx-3 ">
             <div className="text-3xl font-bold font-poppins"> It&apos;s me</div>{" "}
@@ -24,8 +33,8 @@ const About = () => {
             <div className="flex mx-5 float-end top-24">
               <Image
                 alt=""
-                width={210}
-                height={210}
+                width={115}
+                height={215}
                 src="/itsme.jpg"
                 className="z-10"
               />
@@ -41,13 +50,13 @@ const About = () => {
               a cashier offline <strong>application</strong> for a pharmacy
               store.
             </p>
-            <p className="mx-2 mt-3 tracking-wide sm:text-lg animate-slideInRight">
-              Let &apos;s team up to create impactful digital experiences that
-              drive success and innovation.
+            <p className="mx-2 mt-3 animate-slideInRight">
+              &quot; Let &apos;s team up to create impactful digital experiences
+              that drive success and innovation. &quot;
             </p>
           </article>
 
-          <table className="mx-3 mt-5 tracking-wide ">
+          <table className="mx-3 mt-5 tracking-wide">
             <tbody className="gap-4">
               <tr>
                 <td className="align-top">Age</td>
